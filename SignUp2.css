@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*스타일 주석*/
+* {
+	magin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 5px;
+}
+
+.agree {
+
+	width: 755px;
+	height: 85px;
+	text-align: left;
+	border: 1px solid skyblue;
+	overflow-y: scroll;
+	
+}
+.s{
+	align-content: center;	
+}
+.c{ 
+
+	text-align: center; 
+	display: teble-cell; 
+	position: absolute; 
+	top: 100px;
+	left: 25%;
+}
+.b{
+	position: absolute;
+	top: 270px;
+	left: 2%
+}
+
+
+
+table {
+	margin: 10px;
+	padding: 2px;
+	border: 1px solid skyblue;
+	display: inline-block; /*자식 태그에는 이렇게 걸어주어야 부모 태그와 같이 정렬됨*/
+}
+
+tr, td {
+	align-content: center;
+	border: 1px solid white;
+}
+
+#inputName {
+	background-color: skyblue;
+}
+
+.two {
+	background-color: pink;
+}
+
+a:hover {
+	color: skyblue;
+}
+
+#id{
+	font-weight: bold; /*글씨두껍게*/
+	color: black;
+	align:center;
+}
+
+body {
+	text-align: center; /*부모태그 가운데 정렬*/
+}
+
+img {
+	display: inline-block;
+	wight: 300px;
+	height: 200px;
+}
+
+
+/*
+ 선택자(selector): UI의 어느 부분을 디자인할지, 표현의 대상이 되는 부분
+ 선택자{
+ 	속성: 값;
+ } == 선언
+*/

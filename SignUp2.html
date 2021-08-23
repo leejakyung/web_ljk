@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>실습-회원가입</title>
+<link rel="icon" href="image/airplane_icon.ico">
+<style type="text/css">
+@import url("SignUp2.css");
+</style>
+<link rel="icon" href="image/캡처.ico">
+</head>
+
+<body>
+	<h1>회원가입</h1>
+
+	<div class="c">
+	<form method="post">
+	
+		<table border="1">
+			<tr>
+				<td id="inputName">아이디</td>
+				<td align="left"><input type="text" required
+					placeholder="아이디를 입력하세요"><input type="button" value="중복확인"></td>
+			</tr>
+			<tr>
+				<td id="inputName">비밀번호</td>
+				<td align="left"><input type="password" required
+					placeholder="비밀번호를 입력하세요"></td>
+			</tr>
+			<tr>
+				<td id="inputName">비밀번호 확인</td>
+				<td align="left"><input type="password" required
+					placeholder="비밀번호를 입력하세요"></td>
+			</tr>
+			<tr>
+				<td id="inputName">이름</td>
+				<td align="left"><input type="text" required
+					placeholder="이름을 입력하세요"></td>
+			</tr>
+			<tr>
+				<td id="inputName">연락처</td>
+				<td align="left"><select>
+						<option value="010">010</option>
+						<option>011</option>
+						<option>017</option>
+				</select> -<input type="text" placeholder="번호입력" size="5">-<input
+					type="text" placeholder="번호입력" size="5"></td>
+			</tr>
+			<tr>
+				<td id="inputName">이메일</td>
+				<td align="left"><input type="text" placeholder="e-mail입력">@<input
+					type="text" placeholder="e-mail입력"> <select>
+						<option value="직접입력">직접입력</option>
+						<option>naver.com</option>
+						<option>gmail.com</option>
+						<option>daum.net</option>
+				</select> <input type="button" value="중복확인"></td>
+			</tr>
+			<tr>
+				<td id="inputName">생년월일</td>
+				<td align="left"><input type="date"></td>
+			</tr>
+			<tr>
+				<td id="inputName">성별</td>
+				<td align="left"><input type="radio" name="gender" value="남">남<input
+					type="radio" name="gender" value="여">여</td>
+			</tr>
+			<tr>
+				<td id="inputName"><span style="color: red">*</span>선호하는 여행지를
+					선택해주세요.</td>
+				<td align="left"><input type="checkbox" name="travel">유럽
+					<input type="checkbox" name="travel">아시아 <input
+					type="checkbox" name="travel">미국 <input type="checkbox"
+					name="travel">아프리카</td>
+			</tr>
+
+		</table> 
+		<br>
+		<br>
+	<p class="b"> 개인정보처리방침</p> 
+	<p class="agree">개인정보 수집·이용·제공 기준 개인정보를 수집 할 때는 정보주체의 동의를 받아야 하며,
+		수집・이용 목적, 수집 항목, 보유 및 이용 기간, 동의 거부권 등을 알려야 함 개인정보를 수집할 때는 필요 최소한으로
+		수집해야 함 개인정보를 제3자에게 제공할 때는 정보주체의 동의를 받아야 함 개인정보는 수집한 목적 범위를 초과하여 이용하거나 제3자에게 제공을 금지한다.</p>
+	<br>
+	<br>
+	<span><input name="fcheck" type="radio" required class="local"
+					checked="checked"> <label for="agree" required> 동의 </label></span> <span><input
+					name="fcheck" type="radio" class="foreigner" name="check" value="F">
+					<label for="disagree"> 비동의</label></span>
+	
+	<br>
+	<br>	
+	<input class="s" type="submit"  value="가입하기">
+	<input class="s" type="submit" value="가입취소"> 
+	</form> 
+
+	
+	<br>
+	
+	
+	</div>	
+	
+	
+
+</body>
+
+</html>
